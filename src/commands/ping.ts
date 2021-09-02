@@ -2,9 +2,9 @@ import { SlashCommandBuilder } from '@discordjs/builders';
 
 module.exports = {
 	data: new SlashCommandBuilder()
-		.setName('beep')
-		.setDescription('Beep!'),
+		.setName('ping')
+		.setDescription('Ping!'),
 	async execute(interaction) {
-		await interaction.reply('Boop!');
+		await interaction.reply('Pong!');
 	},
 };
