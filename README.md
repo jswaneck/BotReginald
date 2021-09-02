@@ -7,7 +7,7 @@ Discord bot for shooting_the_breeze.java
 3. If it didn't, run `npm install -g npm@latest`
 4. Finally, run `npm install` in the project root
 
-## Testing with you own bot
+## Testing with your own bot
 1. [Setting up a bot application](https://discordjs.guide/preparations/setting-up-a-bot-application.html)
 2. [Adding your bot to servers](https://discordjs.guide/preparations/adding-your-bot-to-servers.html)
 3. Setup a config.json as shown in the src/ folder (you'll need to enable dev settings to get the client and guild id through the right-click in discord):
