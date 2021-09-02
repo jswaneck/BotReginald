@@ -1,5 +1,11 @@
 # node_modules
 node_modules/
 
+# built js
+dist/
+
 # secret token
+src/config.json
+
+# leaving this in case people still have the file here but it needs to be in src/
 config.json
