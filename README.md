@@ -10,7 +10,7 @@ Discord bot for shooting_the_breeze.java
 ## Testing with you own bot
 1. [Setting up a bot application](https://discordjs.guide/preparations/setting-up-a-bot-application.html)
 2. [Adding your bot to servers](https://discordjs.guide/preparations/adding-your-bot-to-servers.html)
-3. Setup a config.json as shown (you'll need to enable dev settings to get the client and guild id through the right-click in discord):
+3. Setup a config.json as shown in the src/ folder (you'll need to enable dev settings to get the client and guild id through the right-click in discord):
 ```
 {
 	"clientId": "your-bots-id",
@@ -18,5 +18,6 @@ Discord bot for shooting_the_breeze.java
 	"token": "your-token-goes-here"
 }
 ```
-4. Run `node .\deploy-commands.js` once
-5. Run `node .\index.js` to start the bot server
+
+4. Run `npm run deploy` once
+5. Run `npm run prod` to start the bot server
